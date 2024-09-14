@@ -1,0 +1,73 @@
+*{
+   margin: 0;
+   padding: 0;
+
+}
+.container{
+   max-width: 1200px;
+   display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin-top: 30px;
+}
+.container .prvi_deo h1{
+   text-transform: uppercase;
+   margin-bottom: 15px;
+}
+
+.container .prvi_deo input{
+    border: 2px solid #000;  
+  border-radius: 0;       
+  padding: 5px;
+  font-size: 16px;
+  transition: border-color 0.3s ease;
+}
+ .container .prvi_deo input:hover {
+    border-color: #3399ff;  =
+  }
+
+ .container .prvi_deo input:focus {
+    outline: none;  
+    border-color: #3399ff;  
+  }
+
+.container .prvi_deo button{
+   border: 2px solid #000;  
+  border-radius: 0;       
+  padding: 5px;
+  font-size: 16px;
+  transition: border-color 0.3s ease;
+}
+.container .prvi_deo button:hover {
+    border-color: #ff3333;  
+  }
+
+ .container .prvi_deo button:focus {
+    outline: none;  
+    border-color: #ff3333;  
+  }
+
+.container .izlaz{
+    max-width: 1200px;
+   display: flex;
+    flex-direction: column;
+    justify-content: center;
+    margin-top: 30px;
+    margin-bottom: 5px;
+}
+.container .izlaz .wrapper{
+   display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    margin-bottom: 10px;
+
+}
+.container .izlaz .wrapper button{
+   border: 1px solid #000;  
+  border-radius: 0;       
+  padding: 5px;
+  font-size: 12px;
+   margin-left: 5px;
+}
